@@ -5,6 +5,19 @@
     color: #6236ff;
 }
 
+.Season2Title{
+    font-family: "Prompt",Georgia,Times,serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #6236ff;
+}
+
+.season1Link{
+    margin-top: auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .vsStyle{
     
     padding: 10px;

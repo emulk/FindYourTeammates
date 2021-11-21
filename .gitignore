@@ -24,5 +24,4 @@ yarn-error.log*
 
 *.php
 
-/FetchPlayerRanking
-/src/FetchPlayerRanking
+./src/FetchPlayerRanking

@@ -63,7 +63,7 @@ class HeaderCompontent extends Component {
                             </Nav.Item>
 
                             <Nav.Item className="headerNavItem">
-                                <Nav.Link href="#/Match">
+                                <Nav.Link href="#/pewpewcup">
                                     <Row>
                                         <Col>
                                             <FontAwesomeIcon icon={faFlagCheckered} />
@@ -71,7 +71,7 @@ class HeaderCompontent extends Component {
                                     </Row>
                                     <Row>
                                         <Col>
-                                            SCOREBOARD
+                                            PEW PEW CUP
                                         </Col>
                                     </Row>
                                 </Nav.Link>

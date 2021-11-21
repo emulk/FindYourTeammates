@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { Table, Row, Col, Accordion, Card, Button, ButtonGroup } from 'react-bootstrap';
+import {  withRouter} from 'react-router-dom';
+import { Row, Col,  Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 import Group1Component from './Group1Component';
 import Group2Component from './Group2Component';
 import SemifinalsComponent from './SemifinalsComponent';
-import './MatchComponentStyle.css';
+import './SeasonOneComponentStyle.css';
 
-class MatchComponent extends Component {
+class SeasonOneComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -17,6 +18,7 @@ class MatchComponent extends Component {
 
         this.showGroup1Function = this.showGroup1Function.bind(this);
         this.showGroup2Function = this.showGroup2Function.bind(this);
+        this.SeasonOneClick = this.SeasonOneClick.bind(this);
 
     }
 
@@ -35,6 +37,10 @@ class MatchComponent extends Component {
             showGroup1: false,
             showGroup2: true
         })
+    }
+
+    SeasonOneClick(){
+
     }
 
     render() {
@@ -63,4 +69,4 @@ class MatchComponent extends Component {
     }
 }
 
-export default MatchComponent;
+export default withRouter(SeasonOneComponent);

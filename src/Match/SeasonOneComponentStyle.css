@@ -1,0 +1,81 @@
+.MatchTitle{
+    font-family: "Prompt",Georgia,Times,serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #6236ff;
+}
+
+.Season2Title{
+    font-family: "Prompt",Georgia,Times,serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #6236ff;
+}
+
+.vsStyle{
+    
+    padding: 10px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.teamStyle{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.mapsStyle{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.winingTrophy{
+    color: #FFD700;
+}
+
+.matchStyleRow{    
+    border-radius: 8px!important;
+    margin-top: 10px!important;
+    margin-bottom: 1em!important;
+    background-color: #ffffff!important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.matchStyleAcordionRow{    
+    border-radius: 8px!important;
+    margin-top: 10px!important;
+    margin-bottom: 1em!important;
+    background-color: #ffffff!important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.GroupMenu1Buttons{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.GroupMenu2Buttons{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.playersRankingAccordion{
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+
+.card-body{
+    padding: 0 !important;
+
+}
+
+.sortIcon{
+    margin-left: 5px;
+}

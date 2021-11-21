@@ -126,10 +126,10 @@ class SemifinalsComponent extends Component {
                                 <h3 class="tournament-bracket__round-title">Semifinals</h3>
                                 <ul class="tournament-bracket__list">
                                     <li class="tournament-bracket__item">
-                                        <div class="tournament-bracket__match" tabindex="0">
+                                        <div class="tournament-bracket__match" tabIndex="0">
                                             <table class="tournament-bracket__table">
                                                 <caption class="tournament-bracket__caption">
-                                                    <time datetime="1998-02-20">23/06/2021</time>
+                                                    <time dateTime="1998-02-20">23/06/2021</time>
                                                 </caption>
                                                 <thead class="sr-only">
                                                     <tr>
@@ -162,10 +162,10 @@ class SemifinalsComponent extends Component {
                                     </li>
 
                                     <li class="tournament-bracket__item">
-                                        <div class="tournament-bracket__match" tabindex="0">
+                                        <div class="tournament-bracket__match" tabIndex="0">
                                             <table class="tournament-bracket__table">
                                                 <caption class="tournament-bracket__caption">
-                                                    <time datetime="1998-02-20">01/07/2021</time>
+                                                    <time dateTime="1998-02-20">01/07/2021</time>
                                                 </caption>
                                                 <thead class="sr-only">
                                                     <tr>
@@ -202,10 +202,10 @@ class SemifinalsComponent extends Component {
                                 <h3 class="tournament-bracket__round-title">Third Place PlayOff</h3>
                                 <ul class="tournament-bracket__list">
                                     <li class="tournament-bracket__item">
-                                        <div class="tournament-bracket__match" tabindex="0">
+                                        <div class="tournament-bracket__match" tabIndex="0">
                                             <table class="tournament-bracket__table">
                                                 <caption class="tournament-bracket__caption">
-                                                    <time datetime="1998-02-21">07/07/2021</time>
+                                                    <time dateTime="1998-02-21">07/07/2021</time>
                                                 </caption>
                                                 <thead class="sr-only">
                                                     <tr>
@@ -243,10 +243,10 @@ class SemifinalsComponent extends Component {
                                 <h3 class="tournament-bracket__round-title">Finals</h3>
                                 <ul class="tournament-bracket__list">
                                     <li class="tournament-bracket__item">
-                                        <div class="tournament-bracket__match" tabindex="0">
+                                        <div class="tournament-bracket__match" tabIndex="0">
                                             <table class="tournament-bracket__table">
                                                 <caption class="tournament-bracket__caption">
-                                                    <time datetime="1998-02-22">10/07/2021</time>
+                                                    <time dateTime="1998-02-22">10/07/2021</time>
                                                 </caption>
                                                 <thead class="sr-only">
                                                     <tr>

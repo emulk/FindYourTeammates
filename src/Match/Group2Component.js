@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Table, Row, Col, Accordion, Card, Button, ButtonGroup } from 'react-bootstrap';
+import { Table, Row, Col, Accordion, Card, Button } from 'react-bootstrap';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import paginationFactory from 'react-bootstrap-table2-paginator';
 import { faTrophy, faSort } from '@fortawesome/free-solid-svg-icons';
 import PlayerRowComponent from './PlayerRowComponent';
-import './MatchComponentStyle.css';
+import './PewPewCupComponentStyle.css';
 
 class Group2Component extends Component {
     constructor(props) {

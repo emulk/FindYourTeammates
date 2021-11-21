@@ -4,7 +4,8 @@ import { Row, Col } from 'react-bootstrap';
 import ServersComponent from './ServersComponent';
 import MapsComponent from '../Maps/MapsComponent';
 import PlayersComponent from '../Players/PlayersComponent';
-import MatchComponent from '../Match/MatchComponent';
+import PewPewCupComponent from '../Match/PewPewCupComponent';
+import SeasonOneComponent from '../Match/SeasonOneComponent';
 
 class TableComponent extends Component {
     constructor(props) {
@@ -56,9 +57,11 @@ class TableComponent extends Component {
                 <Route path="/Players" exact>
                     <PlayersComponent />
                 </Route>
-
-                <Route path="/Match" exact>
-                    <MatchComponent />
+                <Route path="/pewpewcup" exact>
+                    <PewPewCupComponent />
+                </Route>
+                <Route path="/SeasonOne" exact>
+                    <SeasonOneComponent />
                 </Route>
             </HashRouter>
         );
