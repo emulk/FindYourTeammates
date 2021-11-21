@@ -1,0 +1,20 @@
+.backToTopElement{
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    font-weight: bold;
+    background-color: #c7c2e5; 
+    color: #6236ff; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-left: 12px; 
+    padding-right: 12px; 
+    padding-top: 1px; 
+    padding-bottom: 3px; 
+    border-radius:50%; /* Rounded corners */
+    font-weight: bold;
+    font-size: 2em; /* Increase font size */
+    border: 1px solid;
+}

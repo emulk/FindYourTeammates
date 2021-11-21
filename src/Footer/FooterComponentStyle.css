@@ -1,0 +1,45 @@
+.footerStyleCol{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:5px ;
+    background: white;
+    border-radius: 8px;    
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    vertical-align: auto;
+}
+
+.footerTextStyle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.footerIcon{
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.footerHeart{
+    color: red;
+    font-size: 1.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footerLink{
+    width: auto;
+}
+
+.footerLink:hover{
+    width: auto;
+}
+
+.footerSocialIcon{
+    display: flex;
+}
+
+.buymeacoffeeFooterStyleé{
+    padding-top: 5px;
+}

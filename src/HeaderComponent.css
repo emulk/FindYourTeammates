@@ -1,0 +1,67 @@
+.headerStyle{
+    height: 52px;
+    background-color: #f0eefd; 
+    border-radius: 8px;    
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.siteIdentity{
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Prompt', Georgia, Times, serif;
+}
+
+.headerTitle{
+    font-weight: bold;
+    color:#6236ff;
+    font-size: 1.2rem;
+}
+
+.logo{
+    margin-right: 5px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.menuStyle{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.navBarHeaderStyle{    
+    cursor: pointer !important;
+}
+
+.headerNavItem:hover{
+    border: 1px solid #e2deff ;
+    border-radius: 5px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem .5rem !important;
+}
+
+.custom-select{
+    
+    background-color: #f0eefd !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important; 
+}
+
+a, a:hover{
+    text-decoration: none!important;
+    text-decoration: inherit!important;
+    color: inherit!important;
+    width: 100%;
+}
+
+a{
+    
+    color: #aaa;
+    text-decoration: none;
+}

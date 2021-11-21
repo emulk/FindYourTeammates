@@ -1,0 +1,45 @@
+.blueTeam{
+    border: 3px solid blue;
+    border-radius: 3px;
+}
+
+.redTeam{
+    border: 3px solid red;
+    border-radius: 3px;
+}
+
+.playerTag{
+    font-weight: bold;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.playerLevel{
+    font-weight: bold;
+    padding-right: 2px;
+    padding-left: 2px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+.playerInfos{
+    font-family: sans-serif;
+    text-align: center; 
+    display: block !important;
+}
+
+.blueTeamRow{
+    background-color: #046cc3;
+    border-radius: 3px;
+    color: white;
+    margin: 2px;
+    font-size: 1.2em;
+}
+
+.redTeamRow{
+    background-color: #a91a14;
+    border-radius: 3px;
+    color: white;
+    margin: 2px;
+    font-size: 1.2em;
+}

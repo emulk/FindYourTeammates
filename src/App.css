@@ -1,11 +1,55 @@
 .App {
   text-align: center;
+  background-color: #f9fcff;
+  height: max-content;
+  font-family: sans-serif;
 }
 
+@media only screen and (max-device-width : 480px) {
+  /* Styles */
+  .row{
+    Width:100%;
+    display: contents;
+    
+  margin-right: -15px !important; 
+  margin-left: -15px !important; 
+
+  font-size: 11px;
+
+  }
+
+  .col{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+
+  }
+
+  @media all and (min-width: 481px) and (max-width: 768px) { 
+    .row{
+      
+    margin-right: -15px !important; 
+    margin-left: -15px !important; 
+  
+    font-size: 11px;
+  
+    }
+   }
+  
+ 
+
+.row{
+  margin-right: 0px; 
+   margin-left: 0px; 
+
+}
+  
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

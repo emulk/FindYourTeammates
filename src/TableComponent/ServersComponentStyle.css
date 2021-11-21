@@ -1,0 +1,63 @@
+.europeTableCountrys{
+    background-color: #ffffff;  
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.europTable-wrap{
+    overflow-y: none;
+    width: 100%;
+}
+
+
+thead th
+{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.tableEuropeanTitle{
+    font-family: 'Prompt',Georgia,  Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    color:#6236ff;
+    
+}
+
+.tableEuropeanCol{
+    border-radius: 8px;     
+    margin-top: 10px;
+    margin-bottom: 1em;
+    background-color: #ffffff;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.newDecesedNumbers{
+    color: #fd4e70;
+    font-weight: bold;
+}
+
+.newCasesNumbers, .activeCasesNumbers{
+    color:#ff761c;
+    font-weight: bold;
+}
+
+.testCasesNumbers, .recoveredCasesNumbers{
+    color:#6ad300;
+    font-weight: bold;
+}
+
+.unemploymentNumbers{
+    color: #FF00FF;
+    font-weight: bold;
+}
+
+.totalConfirmedNumbers{
+    color:#9374ff;
+    font-weight: bold;
+}
+
+.playerColumn{
+    min-width: 200px;
+}

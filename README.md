@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://www.elegantweb.it/FindYourTeammates/Team.png" width="30%" alt="COVID19 API" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Find Your Teammates
+Is a website to help you finde your teammates, on the Hyperdash Server.
+You can be notified when your teammates are going online, and se in whitch server or region are they playing.
+
+[FindYourTeammates](https://www.elegantweb.it/FindYourTeammates/#/).
 
 ## Available Scripts
 
@@ -29,42 +35,24 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Learn More about Hyperdash
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Learn More About Hyperdash [HyperDash](https://www.elegantweb.it/2021/08/14/hyper-dash/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Support
 
-## Learn More
+- [One-time donation via PayPal](https://paypal.me/oshehaj?locale.x=en_US)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a href="https://ko-fi.com/orgestshehaj" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 215px !important;" ></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+These are projects that take a lot of effort and time to maintain. So with your help I will be more motivated to continue maintaining the COVID19 project.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Requests
+Please report feature requests to the email: info@elegantweb.it
 
-### Analyzing the Bundle Size
+## Contacts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Write me on info@elegantweb.it , for information or collaboration.

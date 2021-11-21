@@ -1,0 +1,43 @@
+.tablePlayersTitle{
+    font-family: 'Prompt',Georgia,  Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    color:#6236ff;
+    
+}
+
+.tablePlayersCol{
+    border-radius: 8px;     
+    margin-top: 10px;
+    margin-bottom: 1em;
+    background-color: #ffffff;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.tagLevel{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.playerNameColumn{
+    font-weight: bold;
+    font-size: 1.2em;;
+}
+
+.playersSearchForm{
+    height: 140%;
+}
+
+.searchPlayerLabel{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.notifyColumn{
+    cursor: pointer !important;
+}
+
+.clearrAllNotifications{
+    cursor: pointer !important;
+    width: 100px;
+}
