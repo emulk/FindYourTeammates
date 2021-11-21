@@ -8,6 +8,11 @@ You can be notified when your teammates are going online, and se in whitch serve
 
 [FindYourTeammates](https://www.elegantweb.it/FindYourTeammates/#/).
 
+## Learn More about Hyperdash
+
+Learn More About Hyperdash [HyperDash](https://www.elegantweb.it/2021/08/14/hyper-dash/).
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -36,18 +41,13 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-## Learn More about Hyperdash
-
-Learn More About Hyperdash [HyperDash](https://www.elegantweb.it/2021/08/14/hyper-dash/).
-
-
 ## Support
 
 - [One-time donation via PayPal](https://paypal.me/oshehaj?locale.x=en_US)
 
 <a href="https://ko-fi.com/orgestshehaj" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 215px !important;" ></a>
 
-These are projects that take a lot of effort and time to maintain. So with your help I will be more motivated to continue maintaining the COVID19 project.
+These are projects that take a lot of effort and time to maintain. So with your help I will be more motivated to continue maintaining this project.
 
 
 ## Requests
