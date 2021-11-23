@@ -5,7 +5,8 @@ import ServersComponent from './ServersComponent';
 import MapsComponent from '../Maps/MapsComponent';
 import PlayersComponent from '../Players/PlayersComponent';
 import PewPewCupComponent from '../Match/PewPewCupComponent';
-import SeasonOneComponent from '../Match/SeasonOneComponent';
+import SeasonOneComponent from '../Match/SeasonOne/SeasonOneComponent';
+import CalendarComponent from '../Match/SeasonTwo/CalendarComponent';
 
 class TableComponent extends Component {
     constructor(props) {
@@ -57,6 +58,10 @@ class TableComponent extends Component {
                 <Route path="/Players" exact>
                     <PlayersComponent />
                 </Route>
+                <Route path="/pewpewcalendar" exact>
+                    <CalendarComponent />
+                </Route>
+
                 <Route path="/pewpewcup" exact>
                     <PewPewCupComponent />
                 </Route>

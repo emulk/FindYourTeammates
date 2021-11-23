@@ -4,7 +4,7 @@ import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import paginationFactory from 'react-bootstrap-table2-paginator';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrophy, faSort } from '@fortawesome/free-solid-svg-icons';
-import PlayerRowComponent from './PlayerRowComponent';
+import PlayerRowComponent from '../PlayerRowComponent';
 import './SemifinalsComponentStyle.css';
 
 class SemifinalsComponent extends Component {

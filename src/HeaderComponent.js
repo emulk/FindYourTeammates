@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from "react-router-dom";
 import { Row, Col, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faServer, faMap, faHeadset, faFlagCheckered } from '@fortawesome/free-solid-svg-icons';
+import { faServer, faMap, faHeadset, faFlagCheckered, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import './HeaderComponent.css';
 
 class HeaderCompontent extends Component {
@@ -61,7 +61,20 @@ class HeaderCompontent extends Component {
                                     </Row>
                                 </Nav.Link>
                             </Nav.Item>
-
+                            <Nav.Item className="headerNavItem">
+                                <Nav.Link href="#/pewpewcalendar">
+                                    <Row>
+                                        <Col>
+                                            <FontAwesomeIcon icon={faCalendar} />
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col>
+                                            CALENDAR
+                                        </Col>
+                                    </Row>
+                                </Nav.Link>
+                            </Nav.Item>
                             <Nav.Item className="headerNavItem">
                                 <Nav.Link href="#/pewpewcup">
                                     <Row>
@@ -71,7 +84,7 @@ class HeaderCompontent extends Component {
                                     </Row>
                                     <Row>
                                         <Col>
-                                            PEW PEW CUP
+                                            PEWPEW CUP
                                         </Col>
                                     </Row>
                                 </Nav.Link>
