@@ -85,3 +85,28 @@
 .sortIcon{
     margin-left: 5px;
 }
+
+.RobotImages{
+    max-width: 300px;
+}
+
+.joinDiscordButton{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.pewpewTitle{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pewpewDescription{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.pewpewDescriptionRow{
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
