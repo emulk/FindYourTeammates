@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter,  Route, HashRouter } from "react-router-dom";
+import { withRouter, Route, HashRouter } from "react-router-dom";
 import { Row, Col } from 'react-bootstrap';
 import ServersComponent from './ServersComponent';
 import MapsComponent from '../Maps/MapsComponent';
@@ -7,6 +7,7 @@ import PlayersComponent from '../Players/PlayersComponent';
 import PewPewCupComponent from '../Match/PewPewCupComponent';
 import SeasonOneComponent from '../Match/SeasonOne/SeasonOneComponent';
 import CalendarComponent from '../Match/SeasonTwo/CalendarComponent';
+import PlayerStatsComponent from '../Match/SeasonTwo/PlayerStatsComponent';
 
 class TableComponent extends Component {
     constructor(props) {
@@ -64,6 +65,9 @@ class TableComponent extends Component {
 
                 <Route path="/pewpewcup" exact>
                     <PewPewCupComponent />
+                </Route>
+                <Route path="/playerstats" exact>
+                    <PlayerStatsComponent />
                 </Route>
                 <Route path="/SeasonOne" exact>
                     <SeasonOneComponent />

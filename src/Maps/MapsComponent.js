@@ -102,10 +102,11 @@ class MapsComponent extends Component {
                         </Row>
                         <hr />
                         <Row className="titleSection">
-                            Death Match: Metropolis
+                            Death Match
                         </Row>
                         <Row>
                             <p>Death Match Metropolis is every player for themselves, first player to collect 50 kills is the winner.</p>
+                            <p>TDM is a 5 vs 5 death match, the firs team to collect a 100 kills win.</p>
                         </Row>
                         <Row>
                             <Col>
@@ -117,6 +118,18 @@ class MapsComponent extends Component {
                                 <Row>
                                     <Col>
                                         <img src="images/Metropolis.jpg" className="maps" alt="Metropolis" />
+                                    </Col>
+                                </Row>
+                            </Col>
+                            <Col>
+                            <Row className="titleSection">
+                                    <Col>
+                                        Team Death Match
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <img src="images/tdm.png" className="maps" alt="TDM" />
                                     </Col>
                                 </Row>
                             </Col>
