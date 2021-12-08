@@ -4,6 +4,7 @@ import { Table, Row, Col, Accordion, Card, Button, ButtonGroup } from 'react-boo
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import { faTrophy, faSort } from '@fortawesome/free-solid-svg-icons';
+import Season2Component from './SeasonTwo/Season2Component';
 import './PewPewCupComponentStyle.css';
 
 class PewPewCupComponent extends Component {
@@ -72,37 +73,7 @@ class PewPewCupComponent extends Component {
                     </Col>
                 </Row>
 
-                <Row >
-                    <Col className="MatchTitle" >
-                        Ranking
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className="matchStyleRow">
-                        <Row>
-                            <Col>
-                                <Table striped bordered hover>
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>Team</th>
-                                            <th>Points</th>
-                                            <th>Win</th>
-                                            <th>Losses</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-
-
-                                    </tbody>
-                                </Table>
-
-                            </Col>
-                        </Row>
-
-                    </Col>
-                </Row>
+                <Season2Component />
             </Col>
         );
     }

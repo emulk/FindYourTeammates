@@ -86,11 +86,11 @@ class ServersComponent extends Component {
                     });
                     return (
                         <tr key={index} >
+                            <td ><Row ><PlayerComponent players={bluTeam} team="blue" /><PlayerComponent players={redTeam} team="red" /></Row></td>
                             <td>{AllData.name}</td>
                             <td>{AllData.value.region}</td>
                             <td >{AllData.value.map}</td>
                             <td className="totalConfirmedNumbers">{AllData.value.mode}</td>
-                            <td ><Row ><PlayerComponent players={bluTeam} team="blue" /><PlayerComponent players={redTeam} team="red" /></Row></td>
                         </tr>
                     )
                 }
@@ -136,11 +136,11 @@ class ServersComponent extends Component {
                         <Table responsive className="europeTableCountrys table-hover " >
                             <thead>
                                 <tr>
+                                    <th className="playerColumn">Players</th>
                                     <th>Name</th>
                                     <th>Region</th>
                                     <th>Map</th>
                                     <th>Mode</th>
-                                    <th className="playerColumn">Players</th>
                                 </tr>
                             </thead>
                             <tbody>

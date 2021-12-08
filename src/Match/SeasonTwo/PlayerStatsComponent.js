@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import { Table, Row, Col, Accordion, Card, Button, ButtonGroup } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
-import { faTrophy, faSort } from '@fortawesome/free-solid-svg-icons';
+import {  faSort } from '@fortawesome/free-solid-svg-icons';
 import './PlayerStatsComponentStyle.css';
 
 class PlayerStatsComponent extends Component {
@@ -12,10 +12,48 @@ class PlayerStatsComponent extends Component {
         this.state = {
         };
 
-
+        this.handlePlayers = this.handlePlayers.bind(this);
+        this.fetchPlayers = this.fetchPlayers.bind(this);
     }
 
     componentDidMount() {
+        this.fetchPlayers();
+    }
+
+    fetchPlayers(){
+        let url = "https://www.elegantweb.it/FindYourTeammates/Season2/PlayersRanking.php";
+        let updatedTime = undefined;
+
+        fetch(url)
+            .then(response => response.text())
+            .then(
+                updatedTime => this.handlePlayers(updatedTime)
+            );
+    }
+
+    handlePlayers(data){
+        if (data) {
+            var players = new Array();
+            var isHeader = true;
+            var count = 0;
+            JSON.parse(data).map((data, index) => {
+                if (!isHeader) {
+                    var player = new Object();
+                    player.Id = count;
+                    player.Tag = data[0];
+                    player.Name = data[1];
+                    player.Kills = data[2];
+                    player.Death = data[3];
+                    player.KD = Math.trunc((data[2]/data[3])*100)/100;
+                    players.push(player)
+                }
+                isHeader = false;
+                count++;
+            });
+            this.setState({
+                Players: players
+            })
+        }
     }
 
 

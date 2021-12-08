@@ -15,7 +15,7 @@ function App() {
   return (
      <Router path="/" basename={'/FindYourTeammates'} >
       <div className="App">
-        <Container fluid>
+        <Container fluid className="containerStyle">
           <HeaderComponent />
           <TableComponent />
           <BackToTopComponent />

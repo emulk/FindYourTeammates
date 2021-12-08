@@ -1,0 +1,25 @@
+{
+    [
+        "team1": "Team1",
+        "team2": "Team2",
+        "result1": "2",
+        "result2": "0",
+        "map1":{
+            "name": "payload",
+            "result1": "97%",
+            "result2": "80%",
+            "playerTeam1": [
+                "name": "bello",
+                "kills": "16",
+                "deaths": "26",
+                "points": "1645"
+            ],
+            "playerTeam2": [
+                "name": "asd",
+                "kills": "31",
+                "deaths": "26",
+                "points":"1945”
+            ]
+        }
+    ]
+}

@@ -123,8 +123,6 @@ class Group2Component extends Component {
                     <Row>
                         <Col className="matchStyleAcordionRow">
                             <span className="teamStyle">
-
-
                                 {trophy1}
                                 {team1}
                             </span>
